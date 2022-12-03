@@ -5,34 +5,61 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+html{
+	scroll-snap-type: mandatory;
+	scroll-snap-points-y: repeat(90vh);
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+}
+
 header {
 	height: 5vh;
-	
+	scroll-snap-align: start;
+	position: fixed;
 }
 
 #landing {
 	color: white;
 	height: 90vh;
+	scroll-snap-align: start;
+	scroll-snap-stop: always;
+
+
 }
 #landing div {
 	width: 50%;
 	margin:auto;
 	text-align: center;
 	color: white;
+	scroll-snap-align: start;
+
 }
 #what {
 	background-color: #822433;
 	height: 90vh;
 	color: white;
+
+	scroll-snap-align: start;
+
+
 }
 #logistics {
 	height: 90vh;
 	color: white;
+
+	scroll-snap-align: start;
+
+
 }
 #signup {
 	height: 90vh;
 	background-color: white;
 	color: #822433;
+
+	scroll-snap-align: start;
+
+
 }
 footer{
 	height: 20vh;
