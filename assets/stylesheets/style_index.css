@@ -1,0 +1,31 @@
+body {
+	background-image: url("../img/blackboard.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#landing {
+	
+	height: 90vh;
+}
+#landing div {
+	width: 50%;
+	margin:auto;
+	text-align: center;
+}
+#what {
+	background-color: #822433;
+	height: 90vh;
+}
+#logistics {
+	height: 90vh;
+}
+#signup {
+	height: 90vh;
+	background-color: white;
+}
+footer{
+	height: 20vh;
+	background-color: black;
+}
