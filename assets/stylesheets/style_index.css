@@ -195,3 +195,7 @@ table, tr {
 	border-collapse: collapse;
 	width: 100%;
 }
+
+.exampleproblem {
+	height: 80px;
+}
