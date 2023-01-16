@@ -127,10 +127,10 @@ html {
 
 #contactus {
 	background-color: #822433;
-	height: 20vh;
+	height: 10vh;
 	color: white;
 
-	padding: 10vw;
+	padding: 5vw;
 	scroll-snap-align: start;
 	display: flex;
 	align-items: center;
@@ -142,11 +142,11 @@ html {
 }
 
 #signup {
-	height: 90vh;
+	height: 45vh;
 	background-color: lightgray;
 	color: black;
 
-	padding: 10vw;
+	padding: 5vw;
 	scroll-snap-align: start;
 	display: flex;
 	align-items: center;
