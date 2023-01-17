@@ -199,3 +199,12 @@ table, tr {
 .exampleproblem {
 	height: 80px;
 }
+
+li {
+	font-size: 20px;
+}
+#awards_list {
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+  }
