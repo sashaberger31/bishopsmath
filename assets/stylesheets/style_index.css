@@ -32,12 +32,22 @@ header {
 	display: inline;
 	color: white;
 }
+@media only screen and (max-width: 1200px){
+	#navbar a {
+		padding: 5px;
+		color: white;
+		font-size: 10px;
+		text-decoration: none;
+	}
+}
 
-#navbar a {
-	padding: 15px;
-	color: white;
-	font-size: 25px;
-	text-decoration: none;
+@media only screen and (min-width: 1200px){
+	#navbar a {
+		padding: 15px;
+		color: white;
+		font-size: 20px;
+		text-decoration: none;
+	}
 }
 
 /*Smooth Scroll*/
@@ -74,10 +84,8 @@ html {
 
 }
 
-
 #what, #logistics {
 	background-color: #822433;
-	height: 90vh;
 	color: white;
 
 	padding: 5vw;
@@ -86,6 +94,32 @@ html {
 	align-items: center;
 	align-content: center;
 
+}
+@media only screen and (max-width: 1200px) {
+	#what {
+		height: 120vh;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	#what {
+		height: 90vh;
+	}
+}
+
+@media only screen and (min-width: 860px) {
+	#logistics {
+		height: 90vh;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 860px) {
+	#logistics {
+		height: 120vh;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#logistics {
+		height: 130vh;
+	}
 }
 
 #what, #logistics, #signup, #contactus .content_container {
@@ -116,14 +150,21 @@ html {
 	text-align: justify;
 }
 #problems {
-	height: 90vh;
 	color: white;
 	scroll-snap-align: start;
+	padding: 5vw;
+}
+@media only screen and (min-width: 600px) {
+	#problems {
+		height: 90vh;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#problems {
+		height: 130vh;
+	}
 }
 
-#logistics {
-	height: 90vh;
-}
 
 #contactus {
 	background-color: #822433;
@@ -146,7 +187,7 @@ html {
 	background-color: lightgray;
 	color: black;
 
-	padding: 5vw;
+	padding: 7vw;
 	scroll-snap-align: start;
 	display: flex;
 	align-items: center;
