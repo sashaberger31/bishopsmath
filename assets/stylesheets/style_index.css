@@ -34,9 +34,9 @@ header {
 }
 @media only screen and (max-width: 1200px){
 	#navbar a {
-		padding: 5px;
+		padding: 3px;
 		color: white;
-		font-size: 10px;
+		font-size: 6px;
 		text-decoration: none;
 	}
 }
@@ -95,7 +95,13 @@ html {
 	align-content: center;
 
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen and (max-width: 500px) {
+	#what {
+		height: 150vh;
+	}
+}
+@media only screen and (max-width: 1200px) and (min-width: 500px) {
 	#what {
 		height: 120vh;
 	}
@@ -116,9 +122,14 @@ html {
 		height: 120vh;
 	}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) and (min-width: 429px) {
 	#logistics {
 		height: 130vh;
+	}
+}
+@media only screen and (max-width: 429px) {
+	#logistics {
+		height: 160vh;
 	}
 }
 
@@ -181,6 +192,11 @@ html {
 #contactus a {
 	color: white;
 }
+@media only screen and (max-width: 600px) {
+	#contactus {
+		font-size: 3vh;
+	}
+}
 
 #signup {
 	height: 45vh;
@@ -238,6 +254,7 @@ table, tr {
 }
 
 .exampleproblem {
+	object-fit: scale-down;
 	height: 80px;
 }
 

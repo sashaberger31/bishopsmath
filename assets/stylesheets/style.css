@@ -21,13 +21,12 @@ a {
 }
 
 
-/*Column Layout in Sign Ups, copied from W3Schools
+/*Column Layout, copied from W3Schools
 /* Create two equal columns that floats next to each other */
 .column {
 	float: left;
 	width: 50%;
 	padding: 10px;
-	height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -42,5 +41,5 @@ a {
 	.column {
 		width: 100%;
 	}
-}*/
+}
 
