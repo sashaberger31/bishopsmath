@@ -199,15 +199,36 @@ html {
 }
 
 #signup {
-	height: 45vh;
+
 	background-color: lightgray;
 	color: black;
 
-	padding: 7vw;
+	padding: 4vw;
 	scroll-snap-align: start;
 	display: flex;
 	align-items: center;
 	align-content: center;
+}
+@media only screen and (min-width: 850px) and (max-width: 900px) {
+	#signup {
+		height: 45vh;
+	}
+}
+@media only screen and (max-width: 850px) {
+	#signup {
+		height: 60vh;
+	}
+	.signup {
+		font-size: 3vh;
+	}
+}
+@media only screen and (min-width: 900px) {
+	#signup {
+		height: 50vh;
+	}
+	.signup {
+		font-size: 30px;
+	}
 }
 
 footer{
