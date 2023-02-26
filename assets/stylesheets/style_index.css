@@ -12,6 +12,12 @@ section {
 	padding: 3vh 5vw;
 }
 
+#contactus {
+	background-color: #822433;
+	height: 10vh;
+	color: white;
+}
+
 @media only screen and (max-width: 900px) {
 	section {
 		height: auto;
@@ -77,13 +83,7 @@ section {
 	color: blue;
 }
 
-#contactus {
-	background-color: #822433;
-	height: 10vh;
-	color: white;
 
-	padding: 5vw;
-}
 
 #signup {
 
@@ -109,7 +109,7 @@ table, tr {
 }
 
 td,col {
-	padding: 0.5vh 1vw;
+	padding: 0.2vh 1vw;
 
 }
 .exampleproblem {

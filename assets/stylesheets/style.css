@@ -77,8 +77,8 @@ section .content_container{
 	gap: 2vh;
 	height: 100%;
 	text-align: center;
-
 	min-width:0;
+	padding: 2vh 2vw;
 }
 
 
@@ -128,20 +128,20 @@ h1 {
 	font-size: 1.5em;
 }
 
-h2 {
+h2,h3,h4{
 	font-size: 1em;
 }
 p {
 	font-size: 0.5em;
 }
 
-@media only screen and (max-width: 850px){ 
+@media only screen and (max-width: 1000px){ 
 
 	h1 {
 		font-size: 1em;
 	}
 
-	h2 {
+	h2,h3,h4 {
 		font-size: 0.7em;
 	}
 
@@ -150,6 +150,23 @@ p {
 	}
 
 }
+
+@media only screen and (max-width: 800px){ 
+
+	h1 {
+		font-size: 0.8em;
+	}
+
+	h2, h3, h4{
+		font-size: 0.6em;
+	}
+
+	p {
+		font-size: 0.4em;
+	}
+
+}
+
 
 
 a {
