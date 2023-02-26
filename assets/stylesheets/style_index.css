@@ -62,17 +62,25 @@ html {
 	scroll-behavior: smooth;
 }
 
-#landing img {
+#landing img.logo{
 	width: 150px;
 	display: block;
 	margin: auto;
 }
 
+#landing img.chevron{
+	width: 100px;
+	padding-bottom: 40px;
+	align-self: flex-end;
+	display: block;
+	margin: auto;
+}
+
+
 #landing, #sponsors {
 	position: relative;
-	top: 6vh; /* Ensure same as header height */
 	color: white;
-	height: 90vh;
+	height: 94vh;
 	scroll-snap-align: start;
 	scroll-snap-stop: always;
 	display: flex;
@@ -80,10 +88,16 @@ html {
 	align-items: center;
 	align-content: space-between;
 }
+#landing {
+	padidng-top: 6vh; /* Ensure same as header height */
+	height: 100vh; 
+}
+
 
 #landing div, #section div {
+	height: 100%;
 	margin:auto;
-	padding: 10vw;
+	padding-top: 10vw;
 	text-align: center;
 	color: white;
 	scroll-snap-align: start;
@@ -101,7 +115,6 @@ html {
 #what, #logistics {
 	background-color: #822433;
 	color: white;
-
 	padding: 5vw;
 	scroll-snap-align: start;
 	display: flex;
