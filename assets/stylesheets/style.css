@@ -137,21 +137,24 @@ p {
 
 @media only screen and (max-width: 850px){ 
 
-h1 {
-	font-size: 1em;
-}
+	h1 {
+		font-size: 1em;
+	}
 
-h2 {
-	font-size: 0.7em;
-}
-p {
-	font-size: 0.4em;
-}
+	h2 {
+		font-size: 0.7em;
+	}
 
- }
+	p {
+		font-size: 0.4em;
+	}
+
+}
 
 
 a {
 	color: white;
 	text-decoration: none;
 }
+
+/*Test*/
