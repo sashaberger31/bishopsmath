@@ -30,7 +30,7 @@
 	</header>
 
 	<section id = "landing">
-		<div>
+		<div class = "content_container">
 			<img src = "assets/img/bish_logo.svg" class = "logo"> 
 			<h1> The Bishop's School Integration Bee </h1>
 			<p> San Diego's only high school calculus-focused math contest </p>
@@ -41,27 +41,18 @@
 	<section id = "what">
 		<div class = "content_container">
 			<h1> What is it? </h1>
-			<div class = "flex_info_container">
-				<div>
+			<div class = "info_container">
+				<div class = "info_item">
 					<h3> Individual Round </h3>
 					<p> Just like the MIT Integration Bee, you will solve challenging integrals (and similar problems) at a whiteboard head-to-head against your competitor. Fastest correct answer wins! The tournament will take place with a single-elimination bracket consisting of matches of up to fifteen minutes. All integrals can be solved with an AP Calculus BC level of knowledge, but will often require ingenuity and clever tricks under time pressure.</p>
-				</div>
-				<div>
+
 					<h3> Team Round </h3>
 					<p> Bring a team of up to four students (if you don't have a team, we can make one for you) into a problem set relay race (similar to BMT or HMMT's "guts round") with a live scoreboard. The problems here will be a mashup—some similar to individual round problems—but also including limits, series, calculus-themed trivia, and other calculus problems to spice it up. </p>
 				</div>
-				<div>
+				<div class = "info_item">
 					<h3> Awards </h3>
-					<p>Precise awards will be determined once we have more information about our sponsorships, but we will give some monetary and/or book prizes!</p>
-					<ul id = "awards_list">
-						<li>Division I 1st place</li>
-						<li>Division I 2nd place</li>
-						<li>Division I 3rd place</li>
-						<li>Division II 1st place</li>
-						<li>Division II 2nd place</li>
-						<li>Division II 3rd place</li>
-					</ul>
-					<p>In addition, the top team of the Guts round will gain prizes, and (if the team is a school team) each
+					<p>Monetary and book prizes will be given out to the top three contestants from both divisions, along with some merch from our sponsors (including 3Blue1Brown!)</p>
+					<p>Top team of the Guts round will win prizes and each
 					member of that school attending the integration bee (even non-team members) will get a donut or edible
 						award of the same tier.</p>
 				</div>
@@ -95,21 +86,31 @@
 	<section id = "logistics">
 		<div class = "content_container">
 			<h1>Logistics</h1>
-			<div class = "row">
-				<div class = "column" style = "padding-bottom: 5vh;">
-					<h4>Where?</h4>
-					<p>The Bishop's School</p>
-					<p>7607 La Jolla Blvd, La Jolla, CA 92037</p>
-					<h4>When?</h4>
-					<p>Saturday, March 18 (Tentative)</p>
-					<p>9 am - 6:15 pm</p>
-					<h4>I shall hunger!</h4>
-					<p>Free pizza lunch will be provided, and snacks will be left out throughout the day free of charge!</p>
-					<h4>Rules:</h4>
-					<p><a href = "https://docs.google.com/document/d/1WI6vXmSNE9AqO1CpDnAIEUP8j_fAeTO2UGpoY6Q3SCQ/edit?usp=sharing">Click here!</a></p>
+
+			<div class = "row info_container">
+
+				<div class = "column info_item" style = "padding-bottom: 5vh;">
+					<div>
+						<h4>Where?</h4>
+						<p>The Bishop's School</p>
+						<p>7607 La Jolla Blvd, La Jolla, CA 92037</p>
+					</div>
+					<div>
+						<h4>When?</h4>
+						<p>Saturday, March 18 (Tentative)</p>
+						<p>9 am - 6:15 pm</p>
+					</div>
+					<div>
+						<h4>I shall hunger!</h4>
+						<p>Free pizza lunch will be provided, and snacks will be left out throughout the day free of charge!</p>
+					</div>
+					<div>
+						<h4>Rules:</h4>
+						<p><a href = "https://docs.google.com/document/d/1WI6vXmSNE9AqO1CpDnAIEUP8j_fAeTO2UGpoY6Q3SCQ/edit?usp=sharing">Click here!</a></p>
+					</div>
 				</div>
 
-				<div class = "column">
+				<div class = "column info_item">
 					<h4>Tentative Schedule:</h4>
 					<table id = "schedule">
 						<colgroup>
@@ -171,17 +172,19 @@
 	</section> 
 	
 	<section id = "signup" class= "signup">
-		<div class = "row">
-			<div class="column">
-				<h1>Sign Up (It's Free)!</h1>
-				<h4>Sign Up Form: <a href = "http://bit.ly/bishindiv" target = "_blank">http://bit.ly/bishindiv</a></h4>
-			</div>
-			<div class = "column">
-				<h1>An Addendum</h1>
-				<p>While we do have some outside support (e.g. sponsors), hosting a tournament such as this is quite expensive,
-					and it's difficult to acquire pure financial support. We make this contest free, hoping to give participants
-					more opportunity to participate. We would appreciate it immensely if you could donate here to help cover
-					our costs (even just $15 per contestant would be incredible): [TODO: insert paypal]. Thank you!</p>
+		<div class = "content_container">
+			<div class = "row info_container">
+				<div class="column info_item">
+					<h1>Sign Up (It's Free)!</h1>
+					<h2>Sign Up Form: <a href = "http://bit.ly/bishbee" target = "_blank">http://bit.ly/bishbee</a></h2>
+				</div>
+				<div class = "column info_item">
+					<h1>An Addendum</h1>
+					<p>While we do have some outside support (e.g. sponsors), hosting a tournament such as this is quite expensive,
+						and it's difficult to acquire pure financial support. We make this contest free, hoping to give participants
+						more opportunity to participate. We would appreciate it immensely if you could donate to help cover
+						our costs (even just $15 per contestant would be incredible). Thank you!</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -196,7 +199,7 @@
 
 	<section id = "contactus">
 		<div class = "content_container">
-			<h6>Contact us: <a href="mailto:bishopsintegrationbee@gmail.com">bishopsintegrationbee@gmail.com</a> or 858 371 9406</h6>
+			<h6>Contact us: <a href="mailto:bishopsintegrationbee@gmail.com">bishopsintegrationbee@gmail.com</a></h6>
 		</div>
 	</section>
 
