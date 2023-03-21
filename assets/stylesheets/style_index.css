@@ -128,7 +128,7 @@ li {
 
 .sponsor-grid-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto;
 	padding: 10px;
 }
 .sponsor-grid-item {
